@@ -1,24 +1,11 @@
-# electron-vue-app
-
-## Project setup
+# vue+electron实现redis可视化
 ```
 npm install
+npm run electron:serve
+# macos打包
+npm run eletrcon:build
+# window打包
+npm run electron:build:win
 ```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+# 预览
+![alt text](image.png)
